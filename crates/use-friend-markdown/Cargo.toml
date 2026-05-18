@@ -1,0 +1,27 @@
+[package]
+name = "use-friend-markdown"
+description = "Simple markdown rendering helpers for Fellow Friends fixture records"
+publish = true
+authors.workspace = true
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+readme = "README.md"
+documentation = "https://docs.rs/use-friend-markdown"
+keywords = ["rustuse", "fixtures", "markdown", "metadata"]
+categories = ["development-tools", "text-processing"]
+
+[package.metadata.docs.rs]
+all-features = true
+
+[dependencies]
+use-friend.workspace = true
+
+[dev-dependencies]
+use-friend-fixture.workspace = true
+
+[lints]
+workspace = true

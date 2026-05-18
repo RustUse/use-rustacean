@@ -1,0 +1,28 @@
+[package]
+name = "use-friend"
+description = "Typed Fellow Friends metadata model for RustUse fixture data"
+publish = true
+authors.workspace = true
+version.workspace = true
+edition.workspace = true
+homepage.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+readme = "README.md"
+documentation = "https://docs.rs/use-friend"
+keywords = ["rustuse", "fixtures", "metadata", "mascot", "data"]
+categories = ["data-structures", "development-tools"]
+
+[package.metadata.docs.rs]
+all-features = true
+
+[features]
+default = []
+serde = ["dep:serde"]
+
+[dependencies]
+serde = { workspace = true, optional = true }
+
+[lints]
+workspace = true
