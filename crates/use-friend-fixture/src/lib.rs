@@ -471,9 +471,11 @@ mod tests {
         assert_eq!(ferris.identity_kind, IdentityKind::UnofficialMascot);
         assert_eq!(ferris.technology_kind, TechnologyKind::ProgrammingLanguage);
         assert_eq!(octocat.figure_kind, FigureKind::Creature);
-        assert!(FriendFixtures::all()
-            .iter()
-            .all(|friend| !friend.notes.contains("http")));
+        assert!(
+            FriendFixtures::all()
+                .iter()
+                .all(|friend| !friend.notes.contains("http"))
+        );
     }
 
     #[test]

@@ -96,8 +96,11 @@ mod tests {
     fn renders_deterministic_table() {
         let table = FriendMarkdown::table(FriendFixtures::tiny());
 
-        assert!(table
-            .starts_with("| Name | Ecosystem | Technology kind | Identity kind | Figure | Form |"));
+        assert!(
+            table.starts_with(
+                "| Name | Ecosystem | Technology kind | Identity kind | Figure | Form |"
+            )
+        );
         assert!(table.contains(
             "| Ferris | Rust | Programming language | Unofficial mascot | Animal | crab |"
         ));
