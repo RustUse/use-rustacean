@@ -11,15 +11,15 @@ publish = false
 readme = "README.md"
 repository = "https://github.com/RustUse/use-rustacean"
 rust-version = "1.95.0"
-version = "0.1.0"
+version = "0.1.1"
 
 [workspace.dependencies]
 serde = { version = "1", features = ["derive"] }
-use-friend = { version = "0.1.0", path = "crates/use-friend" }
-use-friend-fixture = { version = "0.1.0", path = "crates/use-friend-fixture" }
-use-friend-markdown = { version = "0.1.0", path = "crates/use-friend-markdown" }
-use-friend-registry = { version = "0.1.0", path = "crates/use-friend-registry" }
-use-rustacean = { version = "0.1.0", path = "crates/use-rustacean" }
+use-friend = { version = "0.1.1", path = "crates/use-friend" }
+use-friend-fixture = { version = "0.1.1", path = "crates/use-friend-fixture" }
+use-friend-markdown = { version = "0.1.1", path = "crates/use-friend-markdown" }
+use-friend-registry = { version = "0.1.1", path = "crates/use-friend-registry" }
+use-rustacean = { version = "0.1.1", path = "crates/use-rustacean" }
 
 [workspace.metadata.rustuse.release]
 publish = false
