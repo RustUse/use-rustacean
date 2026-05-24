@@ -69,21 +69,21 @@ checksum = "e6e4313cd5fcd3dad5cafa179702e2b244f760991f45397d14d4ebf38247da75"
 
 [[package]]
 name = "use-friend"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "serde",
 ]
 
 [[package]]
 name = "use-friend-fixture"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "use-friend",
 ]
 
 [[package]]
 name = "use-friend-markdown"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "use-friend",
  "use-friend-fixture",
@@ -91,7 +91,7 @@ dependencies = [
 
 [[package]]
 name = "use-friend-registry"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "use-friend",
  "use-friend-fixture",
@@ -99,7 +99,7 @@ dependencies = [
 
 [[package]]
 name = "use-rustacean"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "use-friend",
  "use-friend-fixture",
